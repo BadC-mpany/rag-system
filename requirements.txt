@@ -1,0 +1,27 @@
+langchain
+langchain-community
+langchain-core
+openrouter
+langchain-openai
+python-dotenv
+requests
+sentence-transformers
+chromadb
+numpy
+docx2txt
+streamlit
+fastapi
+uvicorn[standard]
+redis
+PyYAML
+bcrypt
+tavily-python
+beautifulsoup4
+
+# Additional document processing libraries
+pypdf
+unstructured
+python-magic-bin
+pillow
+openpyxl
+python-pptx

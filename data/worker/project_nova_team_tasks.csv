@@ -1,0 +1,5 @@
+employee_id,project_role,current_task,due_date
+E101,Lead Backend,Kafka Integration,2025-11-01
+E102,Backend Dev,Spark Job Dev,2025-11-15
+E103,Frontend Dev,UI Prototyping,2025-11-20
+E104,QA Engineer,Test Case Design,2025-11-10

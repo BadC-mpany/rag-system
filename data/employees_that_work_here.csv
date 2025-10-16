@@ -1,0 +1,188 @@
+ID,First Name,Last Name,Gender,Marital Status,Time Left,Works Here,Birthday,Children,Academic Background,Date Hired,Working Experience,Number of prev. Employers,Salary,Department,Job Title,Recruiter,Recruiter ID
+7b89296c-6dcb-4c50-8857-7eb1924770d3,Anthony,Weaver,M,Single,0,True,1993-05-03,1,Bachelor,2017-09-16,5,1,19398,Technology,Database Administrator,Jacqueline Brock,2f34c2a4-e705-49b1-9823-5ed583eae83e
+e8d79f49-af6d-414c-8a6f-188a424e617b,Anthony,Walker,M,Married,0,True,1993-01-15,1,Bachelor,2018-01-13,5,2,18305,Finance,Credit Risk Manager,Michael Robertson,545c10b7-eb4d-4a28-a1a6-e4dc0b46adec
+4dad2986-ce83-4960-aa06-e9ab85a0bcc1,Keith,Smith,M,Single,0,True,1995-02-07,1,MSc,2018-06-21,2,0,10835,Strategy,CEO,Cindy Stewart,de404e1c-89fd-4b3f-8eb7-ae2ff7179bf4
+c963cfe0-afae-4a3b-b909-6a04e7d80068,Victoria,Heath,M,Single,0,True,1986-12-02,1,Bachelor,2017-02-16,11,3,15105,Finance,Financial Analyst,Jimmy Swanson,733611da-7593-4e8d-baa0-c8cd4792c102
+4a37fa2d-f2d7-440f-8785-9faeecc3f80c,Sharon,Henderson,F,Married,0,True,1994-03-28,1,Bachelor,2017-01-02,5,1,14899,Product,Product Brand Associate,Philip Valdez,e196c200-0586-472b-a38c-42f37c7e8b31
+9530fcd9-d6fd-4d9b-a203-2801b65c1c28,Maria,Santiago,F,Married,0,True,2000-12-14,0,High School,2019-05-05,2,1,11057,Finance,Credit Risk Analyst,Jonathan Smith,6fa1613c-9abe-4dfb-a8b9-1d6b6350b8db
+8bb01460-217f-471c-be0a-e8fa1ceac2cc,Austin,Sanchez,F,Single,0,True,1994-01-25,0,MSc,2018-03-06,3,1,15711,Legal,Legal Research Analyst,Norman Pena,b9f2f580-0a55-4241-8079-70d8d0185b2d
+2507759b-36af-471e-ad2e-f1c113d1e9e3,Nicholas,Gonzales,F,Married,0,True,1993-01-14,1,MSc,2019-12-05,3,1,18031,Finance,Finance Manager,Timothy Rogers,8988edb8-bf4c-4c38-9665-c2e24d9a7096
+07158ab7-95f3-4183-9b69-13cd87684f34,Abigail,Long,M,Married,0,True,1996-06-25,1,MSc,2019-11-20,1,0,10538,Strategy,CEO,Tracy Johnson,21b8c26b-c023-43ab-95da-cb8f8c773fe6
+c12776e4-6dd4-41b2-abce-fab3a3b48c4a,Phillip,Jackson,M,Single,0,True,1992-12-19,1,MSc,2018-07-23,4,1,13322,Legal,Attorney General,Tina Frank,4b9458a7-0201-4a72-826a-5621c7ae467e
+5d357ffe-4423-460d-9b0e-da407f5e8e61,Brian,Berg,F,Single,0,True,1999-06-23,1,High School,2018-09-15,3,1,11411,Strategy,Business Strategy Manager,Travis Jacobson,8b02356f-7937-4ef0-bc8b-075de6bfa196
+9cecdeee-a156-4927-9ff6-3c0179e58218,Daniel,Weber,F,Single,0,True,1995-01-07,0,Bachelor,2017-08-18,4,1,13337,Legal,Patent Attorney,Tammy Hutchinson,d1f36a09-9d74-4646-b388-d25833183edb
+b08969ee-f0d8-45e3-b763-c84ebdde03f1,Jennifer,Gibson,F,Married,0,True,1982-10-17,1,Bachelor,2011-01-29,15,3,18026,Strategy,Business Planner,Ashley Lyons,e7662d7e-2c73-49ca-8d26-015663655b6f
+b3fb08f3-4b48-438b-9e51-a921e8e6a305,Andrew,Hughes,F,Single,0,True,1982-08-19,1,Bachelor,2017-01-07,14,4,23169,Technology,Software Engineer,Anthony King,0ef123aa-6178-4a4a-b477-bb5ffee5d914
+cc73abe9-9eba-409f-822a-87dc52e17fd9,Robert,Lopez,M,Married,0,True,1996-12-10,1,Bachelor,2019-08-12,3,1,11262,Technology,Information Security Manager,Edward Bennett,f4e14e75-4ea2-44f5-a854-3d8871dfd962
+63bf9de9-f33f-4a58-b698-0fbe5edcccc1,Dwayne,Higgins,F,Single,0,True,1992-02-15,1,MSc,2019-08-24,4,2,16800,Legal,Resolution Specialist,Curtis Bartlett,a4af29b2-a01e-47a2-9fa3-2973ab66a5ec
+4cdac1b3-1894-45b6-b00a-65ccd081a3d4,Erika,Stephens,F,Single,0,True,1993-11-09,1,MSc,2017-05-16,4,1,16740,Legal,Patent Attorney,Kristen Murray,6281b7e8-e94e-4ae7-b3ee-e3b910698a62
+b406dd29-9b57-4d64-8490-5c0914c25b99,Johnny,Smith,F,Married,0,True,1990-08-08,2,PhD,2017-05-20,3,0,13661,Technology,Information Security Manager,Timothy Rogers,8988edb8-bf4c-4c38-9665-c2e24d9a7096
+ac6289f7-e85a-4ee9-908d-be225edf44c0,Jamie,Craig,F,Married,0,True,1999-02-06,0,High School,2019-06-04,3,1,11266,Finance,Credit Risk Manager,Julia Suarez,d0d8ece0-c157-4a68-830d-b0e1a515f04f
+fec20c5f-ce5b-44fe-add0-9a3531cd3165,Ryan,Lee,F,Married,0,True,1996-02-11,1,Bachelor,2018-06-14,3,1,14029,HR,Benefits Counselor,Julia Suarez,d0d8ece0-c157-4a68-830d-b0e1a515f04f
+94aa3bff-595f-46ff-9761-1f4ee0cb1e6b,Emily,Monroe,M,Single,0,True,1996-07-25,1,MSc,2019-01-11,1,0,11659,Product,Product Implementation Manager,Curtis Bartlett,a4af29b2-a01e-47a2-9fa3-2973ab66a5ec
+cfd8984b-de1c-472f-a763-7e0807d27934,Maureen,Richardson,M,Married,0,True,1995-01-22,2,MSc,2018-09-24,2,0,10703,Finance,Credit Risk Analyst,Jonathan Smith,6fa1613c-9abe-4dfb-a8b9-1d6b6350b8db
+35b48ae6-2a16-4769-ae70-cb693d776476,Derek,Arnold,F,Married,0,True,1996-05-26,0,Bachelor,2018-08-13,3,1,15402,Product,Product Brand Associate,Emily Wilson,0dcf0d34-e5e8-40b1-aa11-a5089dde1f99
+ca477c71-ec12-49bd-9289-046d34012259,Shelley,Myers,M,Single,0,True,1972-03-22,2,MSc,2004-12-30,23,3,72589,Strategy,CIO,Kristen Murray,6281b7e8-e94e-4ae7-b3ee-e3b910698a62
+38720dc4-fed8-47c3-b1b5-de5baf2b28a3,Matthew,Stephens,M,Married,0,True,1987-09-19,2,MSc,2013-04-24,9,1,13666,Product,Product Integration Assistant,James Pineda,215d0b13-2ab5-4601-9b3d-70985d2771e3
+5e92a710-845c-4c87-9d68-b6d8bedcfefc,Stacy,Thompson,M,Single,0,True,1996-09-02,1,Bachelor,2019-08-09,3,1,13363,Finance,Financial Analyst,Melissa Rodriguez,282c1b90-c298-4251-a5ee-719323d3aaef
+2cd4c982-9fed-4ae1-8510-ccca416a4001,Kimberly,Mercer,F,Single,0,True,1977-04-27,1,High School,2006-08-07,23,3,92787,Strategy,Business Strategy Manager,Joseph Durham,8700cfed-571a-41b0-a32e-a7fbb2bec49f
+d1b047b6-ab28-42e7-bcb4-97fc52f9f809,Patricia,Thomas,F,Married,0,True,2002-10-01,2,High School,2020-11-12,0,0,10646,Product,Product Creative Analyst,Nicole Collins,193988fd-b97b-4177-bb55-68426f35f0bb
+b1e73bec-3d90-4f5c-81ff-2f1c46a28e7d,Melissa,Chavez,F,Single,0,True,1986-10-29,1,Bachelor,2018-10-25,11,3,12292,Strategy,Strategic Planner,Randall Zimmerman,b126ea16-87b6-4a6f-b207-e03c08d5f61a
+dd1652e2-6a22-412a-a934-6ef357a0f337,Jonathan,Johnson,F,Married,0,True,1993-11-15,1,MSc,2017-04-25,4,1,12399,Finance,Financial Analyst,Shawn Williams,3ee881bc-ba87-4b5f-bf96-d94654d83434
+46592ed6-be7b-4249-91f0-ff5f7bc2433c,Michael,Taylor,M,Married,0,True,1992-03-15,1,Bachelor,2015-08-02,7,1,14955,Legal,Attorney General,Katie Contreras,1fce38e3-c9c5-4823-a046-f06346f9269d
+a60f3fd5-b608-40b2-81e9-6521a63f0ac3,Glenda,Simon,M,Married,0,True,1993-10-30,1,MSc,2018-10-16,4,1,12635,Product,Product Creative Analyst,Jimmy Swanson,733611da-7593-4e8d-baa0-c8cd4792c102
+7b00b455-b622-4d3f-928a-1a030d9001eb,Timothy,Walker,M,Single,0,True,1992-03-06,2,Bachelor,2016-06-23,6,1,21216,Legal,Manager Legal,Danny Anderson,acf58acd-c7e0-4bf3-9d62-5c99399c162d
+6b9bb2f6-535a-4e07-b6df-fce8112d9d11,Joshua,Lucas,M,Single,0,True,1979-11-21,1,Bachelor,2011-05-21,18,3,16860,Product,Product Integration Assistant,James Pineda,215d0b13-2ab5-4601-9b3d-70985d2771e3
+3238dad5-c7d4-460e-868d-f8de4770a1e8,Jill,Wheeler,F,Single,0,True,1993-05-08,1,MSc,2019-05-03,3,1,18432,HR,Workforce Analyst,Brian Gray,778c5acc-47cf-495f-a986-e2f21c0a73e8
+c3565f1d-1bda-4d13-afc1-3e734ce48c7d,Lindsey,Fuller,F,Single,0,True,1984-12-21,2,MSc,2015-06-06,11,3,20517,Technology,IT Director,Joseph Fernandez,608aa029-7393-4859-b64e-d094bae119c2
+f4e663c3-d0eb-4c6c-a8c2-bf7e6628ac93,David,Stout,M,Married,0,True,1994-10-09,0,Bachelor,2017-05-10,5,1,11976,Technology,Database Administrator,Lori Ford,0a9f6e5a-4f14-4fec-b91c-95531abcc1af
+2ca20ef1-a0d9-47e9-8d6e-5c0baeb6ce87,Scott,Smith,M,Single,0,True,1995-12-27,0,High School,2018-05-21,6,2,17490,Finance,Pricing Analyst,Stephen Bell,a43aeb8b-b1f1-4740-82fd-ebaaff3e47a7
+0ebd0956-dd97-4698-83c7-520f5783b05f,Courtney,Obrien,M,Married,0,True,1992-05-01,1,Bachelor,2013-12-16,7,0,17799,Sales,Sales Manager,Virginia Fitzgerald,8a882692-c3f8-4617-ba19-5724c98e71df
+505f886a-8692-491e-a530-3537fa5dcfb4,Patrick,Campbell,F,Married,0,True,1973-11-25,1,Bachelor,2001-07-15,25,2,53668,HR,HR Coordinator,Adriana Davis,67072115-b01e-491d-8c54-ae8f9f38c8c5
+5932b247-0569-4069-9688-867975502818,Kathleen,Beltran,M,Married,0,True,1989-08-15,1,Bachelor,2014-08-14,9,2,28385,Product,Product Creative Analyst,Catherine Castro,bdf62670-24b0-4592-88cb-0e31e36e2e4f
+6848f458-f022-4b40-924e-3a1e35ee8983,Valerie,Murray,M,Single,0,True,1996-10-18,2,Bachelor,2017-05-01,3,0,14217,Product,Product Integration Assistant,Peter Smith,780241c2-81f4-4997-af41-ebac3931bab3
+07c0a078-ff05-4b94-bc90-219a6ef21901,Mary,Ortiz,F,Married,0,True,1993-06-01,1,PhD,2020-03-05,0,0,13139,HR,Benefits Counselor,Jimmy Swanson,733611da-7593-4e8d-baa0-c8cd4792c102
+d44a128b-7a62-404d-a469-a387cf2f4e88,Michael,Smith,F,Single,0,True,1992-03-04,2,High School,2016-09-27,9,2,14862,Sales,Sales Associate,Norman Pena,b9f2f580-0a55-4241-8079-70d8d0185b2d
+f592e634-71de-4ec7-859a-0204329b6da6,Richard,Callahan,F,Married,0,True,1977-04-03,2,Bachelor,2016-05-12,18,5,23481,Finance,Portfolio Analyst,Gloria Singleton,f1031d94-9b9e-4649-b113-6e078f5c8e06
+d032df20-5b9c-4c5b-adec-ea18d8cded08,Travis,Reese,M,Married,0,True,1995-04-16,1,Bachelor,2017-04-05,4,1,13457,Finance,Pricing Analyst,Catherine Montoya,de04cece-83e9-40e4-9c51-e692dc1729ca
+ecb1b8aa-c989-4c0b-9aeb-9d786912c6e3,Amy,Hernandez,M,Married,0,True,1992-05-19,2,MSc,2015-01-27,5,0,15348,HR,Recruiting Manager,Lori Ford,0a9f6e5a-4f14-4fec-b91c-95531abcc1af
+bfac159c-a7ec-48f1-b28c-3e914f40fc12,Marissa,Washington,M,Single,0,True,1994-01-15,0,Bachelor,2019-02-13,4,2,12695,HR,Recruiting Manager,Benjamin Brown,5a424412-b127-4f86-be74-fba931df6c57
+1df88bd2-40a2-40c5-8e76-23f20514ecdc,Tanner,Williams,F,Single,0,True,1994-12-23,2,MSc,2018-09-10,3,1,14311,Sales,Sales Representative,Jonathan Smith,6fa1613c-9abe-4dfb-a8b9-1d6b6350b8db
+4380786c-5047-437f-8665-baec8e5592bf,Haley,Jacobs,F,Married,0,True,1971-12-24,1,High School,1996-05-30,30,2,67084,Product,Product Creative Analyst,Bridget Buchanan,9108522c-0240-403b-b4b9-8b28ec719866
+cf6d24e0-45b1-40d2-8038-0474d973eafd,Norma,Adams,F,Married,0,True,1993-07-29,1,High School,2014-09-30,8,1,19277,HR,Retention Specialist,Benjamin Brown,5a424412-b127-4f86-be74-fba931df6c57
+640c93b5-910a-4452-9323-f6a62ebe4832,Connie,Martin,F,Married,0,True,1986-02-25,3,Bachelor,2007-03-29,13,0,29084,Sales,Sales Associate,Robin Thomas,6f67e2c3-e75d-4997-9af1-494003f96eb6
+a9ae3bda-3061-445a-9143-1fb18d11fe70,Devin,Baldwin,M,Married,0,True,1996-12-23,1,Bachelor,2018-09-14,3,1,10575,Strategy,CEO,Scott Anderson,c75a3b41-b90b-4fca-bcdf-ac4511a5259a
+2cfd77c6-1c89-4527-b4cf-e1f6324951e4,Daniel,Sanders,M,Married,0,True,1972-02-09,2,MSc,2005-11-26,23,3,72648,HR,Talent Consultant,Brian Poole,ff0c1054-14e2-4ae1-9568-48c667e7db10
+dc667e21-f249-4003-8e4c-41bc06c0f064,Jacob,Brown,F,Single,0,True,1978-12-22,1,Bachelor,2002-10-24,20,1,48823,Finance,Credit Risk Analyst,Laura Jones,540bc2dc-167f-4796-9219-ae5f3a9487f6
+743208e3-0c02-4488-a76d-994bb2d9e2e1,Jay,Johnson,F,Married,0,True,1995-04-01,1,Bachelor,2019-04-04,3,1,11604,Technology,IT Director,Benjamin Lee,99ff40d4-f3be-4a81-babf-9bed2a32d215
+5fdc6e49-2024-4fa1-a414-da4f468482ff,Matthew,Massey,M,Married,0,True,1993-04-09,1,Bachelor,2014-02-25,6,0,14246,Legal,Resolution Specialist,Thomas Vasquez,ebddebfd-930c-4c71-a202-23642c168f26
+82f4c891-4f0e-4f5b-b9cd-4cedd476d2dc,Brittney,Blankenship,F,Single,0,True,1993-06-04,1,Bachelor,2014-09-12,6,0,11965,Strategy,CIO,Dawn Lopez,e539a78b-c8ef-4346-8b12-ae6ead581e57
+373bf221-5a67-49ea-99ce-8cfd8e09b24c,Betty,Ellison,M,Single,0,True,1993-11-16,1,Bachelor,2014-01-08,6,0,14301,Finance,Finance Manager,Rachel Ryan,510f3146-cbf8-4e34-8fd6-45702c551289
+fcf18a73-184b-4ddd-9338-3dc666662e03,Mary,Escobar,M,Single,0,True,1992-09-19,1,Bachelor,2018-06-20,6,2,19510,HR,Workforce Analyst,Nicole Collins,193988fd-b97b-4177-bb55-68426f35f0bb
+2a22350f-017a-40b9-88ff-cebfc549ec3a,Dana,Garner,M,Married,0,True,1993-03-08,1,MSc,2019-01-30,3,1,12811,Finance,Pricing Analyst,James Pineda,215d0b13-2ab5-4601-9b3d-70985d2771e3
+f1031d94-9b9e-4649-b113-6e078f5c8e06,Gloria,Singleton,M,Single,0,True,1994-09-12,1,Bachelor,2016-02-10,5,1,14430,HR,Recruiting Assistant,Patrick Campbell,505f886a-8692-491e-a530-3537fa5dcfb4
+09227acc-d395-46b0-ab88-dd45c7c96ecf,Lisa,Harrison,M,Single,0,True,1992-04-26,1,PhD,2019-09-13,1,0,12094,Technology,Software Engineer,Sabrina Kirk,c2bf89fa-48ad-42dd-be6e-223371442148
+b126ea16-87b6-4a6f-b207-e03c08d5f61a,Randall,Zimmerman,F,Married,0,True,1983-12-02,1,Bachelor,2004-02-13,16,0,19166,HR,Retention Specialist,Kristen Murray,6281b7e8-e94e-4ae7-b3ee-e3b910698a62
+7f4a81fe-d3fe-4716-90a2-b7b6ecf2ad68,Eric,Wood,F,Single,0,True,1993-04-13,2,MSc,2016-02-14,4,0,13376,Sales,Sales Manager,Tammy Hutchinson,d1f36a09-9d74-4646-b388-d25833183edb
+5a212fa9-a344-4d51-bc43-2ab9ab3bb802,Debra,Edwards,M,Married,0,True,1995-12-26,2,Bachelor,2019-01-27,3,1,15132,Product,Production Technician,Destiny Stephens,dd14f46d-2c24-4361-9797-41d983ef00d7
+f0fa1318-0562-4e22-962e-e03e5ee4e223,Casey,Krause,F,Married,0,True,1995-11-19,0,Bachelor,2018-12-02,4,1,16171,HR,Benefits Counselor,Mark Murphy,599a6e41-3f0e-40df-bd15-a236faa571ab
+42cc0ea1-a7cd-4157-87ab-02660cebe09f,Timothy,Durham,F,Single,0,True,1995-05-25,1,Bachelor,2018-07-04,4,1,14691,Legal,Legal Research Analyst,Michael Moore,e5266cb8-b854-4e08-9609-b8c10ffaedbc
+75f1715b-6509-4954-971c-caa81ee65734,Sara,Booker,M,Married,0,True,1993-07-17,1,MSc,2016-11-14,4,0,16507,Product,Production Manager,John Johnson,3cb3d544-65dc-4b29-ad13-151d69e16034
+091a565c-578a-4024-9fc5-02f83fe88ba5,Julie,Ward,M,Single,0,True,1996-11-25,1,Bachelor,2018-10-11,3,1,12262,Sales,Sales Associate,Catherine Green,164ae069-858c-4f1e-a99b-cc044ec2a0b9
+c8a73e9c-6abc-45b6-adb0-3a9c6bc7bd40,Tina,Patel,M,Single,0,True,1993-11-03,1,PhD,2020-04-24,0,0,13483,Technology,IT Director,Stephanie Vargas,1546f4d2-e0a9-47ec-b875-61fc1eeef3b9
+4f851924-f4be-4723-af7e-95a025a74d20,Robert,Luna,M,Single,0,True,1993-11-12,2,MSc,2019-09-29,3,1,14174,Legal,Resolution Specialist,Laura Jones,540bc2dc-167f-4796-9219-ae5f3a9487f6
+cbd87493-3f24-43bc-96d6-88dac6749358,Christian,Jones,M,Married,0,True,1992-04-19,0,Bachelor,2014-12-27,7,1,15916,Technology,IT Director,Tina Frank,4b9458a7-0201-4a72-826a-5621c7ae467e
+cf9f194a-cd22-45df-98f5-f88eee58ad6a,Glenn,Hensley,F,Married,0,True,1994-07-22,1,High School,2016-08-16,7,2,13237,Legal,Legal Research Analyst,Lisa Schaefer,3c7cc41b-6d88-4302-a7cf-b6e4ee2a79c5
+f88807e5-1f6c-45a0-a090-b28c9831dcee,Tony,Powell,M,Married,0,True,1985-04-19,2,MSc,2010-12-08,12,1,29803,Legal,Legal Research Analyst,Amber Duncan,3448611a-e291-43af-aa07-ea19219e3a1e
+8149a809-9375-4fc6-8e88-74df35433dcb,Ashley,Arnold,F,Single,0,True,1996-07-04,1,Bachelor,2019-05-26,3,1,11762,Strategy,CEO,Benjamin Brown,5a424412-b127-4f86-be74-fba931df6c57
+9c4fa829-71f4-4678-85cd-5adc5dcce581,Kyle,Turner,F,Married,0,True,1987-08-02,2,Bachelor,2016-05-16,10,3,26667,Sales,Brand Ambassador,Brian Poole,ff0c1054-14e2-4ae1-9568-48c667e7db10
+7bbae2c3-88cc-4295-a659-b1863cb1b03c,Nathan,Curry,F,Married,0,True,1973-09-18,2,MSc,2019-01-18,19,7,50054,Strategy,Strategy Analyst,Margaret Arroyo,85b9cd79-72ac-4a9a-b04d-48e506d4e1ce
+7758ffa6-f772-4419-b30c-e294bf8a338c,Michael,Perry,M,Married,0,True,1992-05-28,1,Bachelor,2016-07-18,6,1,16782,Sales,Sales Representative,Gloria Singleton,f1031d94-9b9e-4649-b113-6e078f5c8e06
+0ef123aa-6178-4a4a-b477-bb5ffee5d914,Anthony,King,F,Single,0,True,1988-06-25,2,MSc,2012-02-12,9,1,14736,HR,Talent Consultant,Kevin Davis,ff737bff-a8f7-43c2-ae4c-bede60c16c9c
+edafa5bf-f01b-4203-ad8c-87bbfb691afc,Mary,Davis,M,Single,0,True,1977-12-12,1,High School,2007-10-17,23,4,39896,Product,Product Integration Assistant,Benjamin Brown,5a424412-b127-4f86-be74-fba931df6c57
+bd96922c-b9ad-40bf-8257-58141cb673d1,Robert,Barron,F,Married,0,True,1994-05-22,1,Bachelor,2019-12-29,4,2,13155,HR,HR Coordinator,Christopher Adams,0177f6dd-8c5a-45dd-871e-6c53f5f5ba41
+9de7c55d-2dff-4241-ac73-b666f05c8756,Victoria,Roberts,M,Single,0,True,1995-12-08,2,High School,2014-08-10,7,1,18726,Strategy,Strategy Analyst,Catherine Green,164ae069-858c-4f1e-a99b-cc044ec2a0b9
+a154d3d2-2b21-4c40-9d0c-25e68168bf80,Carmen,Choi,M,Single,0,True,1992-04-15,1,MSc,2015-10-28,5,0,15646,Legal,Resolution Specialist,Catherine Castro,bdf62670-24b0-4592-88cb-0e31e36e2e4f
+44af23df-7d89-455d-88a0-c5b7c1e43a56,Joseph,Lewis,M,Married,0,True,1969-12-09,1,High School,2003-11-13,30,5,39420,Legal,Defense Attorney,Beth Carlson,72dd102b-ac2b-48fd-abad-9c8964ff4149
+93736cd4-9e1c-4620-a096-65667b6efc55,Michael,Ruiz,M,Single,0,True,2000-07-06,1,High School,2019-03-20,2,1,10445,Legal,Legal Research Analyst,Daniel Sanders,2cfd77c6-1c89-4527-b4cf-e1f6324951e4
+24ea5184-1f31-4b6b-b414-6a551bc4630c,Brian,Nguyen,M,Married,0,True,1996-09-26,1,Bachelor,2019-04-24,3,1,11733,HR,Workforce Analyst,Joseph Fernandez,608aa029-7393-4859-b64e-d094bae119c2
+48599707-f4eb-41b7-861d-a2e02a281df5,Mark,Anderson,F,Married,0,True,1994-01-11,2,Bachelor,2018-09-27,4,1,12864,HR,Retention Specialist,Ashley Lyons,e7662d7e-2c73-49ca-8d26-015663655b6f
+93d59af9-02d3-4f1a-b724-1b3039ada9f0,Christopher,Walker,M,Single,0,True,1994-11-20,1,Bachelor,2017-04-15,5,1,13462,Strategy,Strategy Analyst,Christine Schmidt,4adc9ba6-ac48-4b86-8610-d98e9f34360a
+be81854b-26f8-411f-ae2f-a92fa66e0b62,John,Carrillo,F,Single,0,True,1992-06-14,1,High School,2018-12-17,8,3,13295,Product,Product Communications Planner,Scott Anderson,c75a3b41-b90b-4fca-bcdf-ac4511a5259a
+6400148e-6b3f-4dbb-9d45-78f424099037,Reginald,Peck,F,Married,0,True,1992-07-02,1,High School,2014-03-09,9,2,27110,Finance,Credit Risk Manager,Timothy Rogers,8988edb8-bf4c-4c38-9665-c2e24d9a7096
+3ff06db5-fe04-46fd-b1b8-2360ba0ed922,Erin,Hill,M,Single,0,True,2001-11-11,1,High School,2019-01-16,1,0,10643,Sales,Director of Sales,Randall Zimmerman,b126ea16-87b6-4a6f-b207-e03c08d5f61a
+5f15103b-ab27-4449-9f4b-5fe29cf80430,Linda,Davidson,M,Single,0,True,1979-11-01,1,MSc,2008-08-10,17,2,20309,Finance,Credit Risk Analyst,James Pineda,215d0b13-2ab5-4601-9b3d-70985d2771e3
+dd14f46d-2c24-4361-9797-41d983ef00d7,Destiny,Stephens,M,Single,0,True,1990-03-21,1,High School,2016-05-06,10,3,22725,HR,Benefits Counselor,Jonathon Weaver,60910f86-4070-4540-991d-93ba12341a02
+20d01011-293a-4556-8648-9492317f130f,Amy,Anthony,F,Married,0,True,1968-06-03,2,Bachelor,1997-12-09,29,3,62839,HR,Workforce Analyst,Rebecca Wilson,5316f87f-7176-4d85-a832-8fdc926839a9
+de6fc2e7-b413-45f9-9ea1-aa34bc7b5e46,Matthew,Oneal,F,Single,0,True,1993-02-10,1,High School,2016-06-27,8,2,12553,Legal,Resolution Specialist,Destiny Stephens,dd14f46d-2c24-4361-9797-41d983ef00d7
+c6aebe64-cdd4-4bef-a26d-1e73f06a7878,David,Burke,F,Single,0,True,2001-03-25,0,High School,2019-12-21,1,0,10638,Strategy,Strategy Director,Crystal Montes,e29473b0-c4b1-4d26-918a-2a3edf464515
+cd34bce9-8998-4e8b-88fb-910b1a1d24b3,Alan,Farley,F,Married,0,True,1994-07-12,1,High School,2019-04-15,7,2,13687,HR,Talent Consultant,Ashley Shea,6ce118aa-efa0-417d-bb7f-b1ab27a03cfa
+54f480aa-03be-4b42-b3da-4d3a1384d59d,Noah,Hoffman,F,Single,0,True,1995-05-13,1,Bachelor,2019-12-25,3,1,14483,Finance,Pricing Analyst,Travis Jacobson,8b02356f-7937-4ef0-bc8b-075de6bfa196
+1d7488cf-ddd2-4fb8-8221-7aa9271112a4,Nicole,Stevens,F,Single,0,True,1992-04-07,2,PhD,2019-03-24,1,0,14774,Strategy,Business Planner,Angela Barnes,4686fd9b-97a0-4271-af96-00667f7a2172
+4995e79b-1d4f-40e7-a990-705189b85138,John,Stokes,F,Single,0,True,1993-09-08,2,MSc,2016-11-22,4,0,12153,Strategy,Business Planner,Beverly Wells,7528bf34-a38e-44a5-b6d6-6e3bdf918c5e
+c2857534-1e01-4544-860e-ec4abcd00cd7,Kimberly,Hendricks,M,Married,0,True,1993-12-13,1,High School,2016-06-28,8,2,20671,Legal,Defense Attorney,Kevin Matthews,d7f20e07-ed42-42ed-84bb-895c608099f6
+533045e9-91ae-4c5a-8d09-066b2a300b2b,Tara,Douglas,M,Married,0,True,1978-11-14,2,Bachelor,2017-07-17,17,5,12039,Sales,Brand Ambassador,Daniel Sanders,2cfd77c6-1c89-4527-b4cf-e1f6324951e4
+59842ec3-f78a-4da6-bdde-649d8b2bb777,Daniel,Johnson,F,Married,0,True,1996-06-01,2,High School,2017-12-03,5,1,12804,Sales,Sales Associate,Michelle Rivera,8769f2fd-a5b7-4552-8df9-b96d34affc7a
+df758061-7431-4f83-b93f-d1a2b17ca258,Andrew,Sanders,M,Married,0,True,1992-02-15,1,Bachelor,2019-11-28,6,2,17346,Legal,Patent Attorney,Brian Gray,778c5acc-47cf-495f-a986-e2f21c0a73e8
+2e8438fb-e41c-4681-abf2-71da75b240c8,Cynthia,Fitzgerald,M,Married,0,True,1995-01-31,1,Bachelor,2016-03-21,4,0,11898,Finance,Finance Manager,William Shah,9121269a-633a-4b42-883c-5c0f94afce23
+84a6a0b1-9fab-4728-9dd2-a6fd5075afca,Linda,Hendrix,F,Married,0,True,1963-10-08,1,PhD,2018-03-20,24,8,21956,HR,Talent Consultant,Allison Smith,bbeb02a7-61e7-4c1e-a8ff-882971dd7a2e
+967f966c-bb5d-4966-8039-c0fcedd7fdb8,Ronald,Bauer,M,Married,0,True,1992-09-19,1,MSc,2016-07-21,5,1,13907,Sales,Sales Associate,George Chase,46cf1eb8-66f8-4c0c-a2a5-8ae4fedc08db
+e40508d1-6e66-400b-9116-33567c50b1c1,James,Montoya,M,Married,0,True,1969-04-18,2,Bachelor,2019-12-04,24,8,26212,HR,HR Coordinator,Adam Ramirez,44f27c77-19ff-447b-a94a-b6e3512b1c52
+2b23a752-af02-422e-aa0c-c3ec505c06bc,Michael,Ramirez,M,Single,0,True,1967-06-24,1,Bachelor,2015-08-24,27,8,68079,Product,Production Technician,John Bray,674b2a20-8147-4668-b48b-53af17d1a45f
+a054d19a-6249-4a4d-90c1-66a3a8ebb56c,Amanda,Gonzalez,F,Single,0,True,1996-04-15,2,Bachelor,2018-10-13,3,1,13435,Sales,Sales Manager,Destiny Stephens,dd14f46d-2c24-4361-9797-41d983ef00d7
+7acc5fc9-c421-4c3b-8acc-4459b991ba1e,Kristie,Brown,M,Single,0,True,1978-05-13,1,MSc,2004-04-02,18,1,46015,HR,Recruiting Assistant,Ashley Lyons,e7662d7e-2c73-49ca-8d26-015663655b6f
+c17e24d6-a404-42e3-ac1f-a03e0421407a,Julie,Reyes,F,Single,0,True,1995-09-18,0,Bachelor,2018-12-07,4,1,13488,Legal,Legal Research Analyst,Angela Barnes,4686fd9b-97a0-4271-af96-00667f7a2172
+aa99f672-d589-4a48-9255-655b07b0491f,Sue,Soto,M,Married,0,True,1993-03-10,1,MSc,2017-10-04,4,1,16953,Sales,Area Sales Manager,Matthew Maynard,6be16292-3ea7-4eb2-baa4-d9c90892c992
+10cb0918-a4c5-411b-9110-23bda11ee07b,Dakota,Nash,F,Single,0,True,1981-08-16,1,MSc,2013-08-06,14,3,36429,Strategy,Strategy Analyst,Adriana Davis,67072115-b01e-491d-8c54-ae8f9f38c8c5
+968de480-d9ea-4692-bd6f-68fa9ccb62ea,David,Bullock,M,Single,0,True,1992-01-03,2,Bachelor,2019-04-17,6,2,11610,HR,Benefits Counselor,Stephen Bell,a43aeb8b-b1f1-4740-82fd-ebaaff3e47a7
+eb929692-e09a-4d96-80fe-086d65c14198,Dennis,Moran,F,Married,0,True,1994-12-06,2,High School,2018-04-27,7,2,15253,Sales,Sales Associate,Joseph Fernandez,608aa029-7393-4859-b64e-d094bae119c2
+155c4a2a-ece3-41eb-8f82-c7dc4c2d9894,David,Harris,M,Single,0,True,1992-11-15,1,MSc,2015-06-27,5,0,12874,Finance,Financial Analyst,Brian Gray,778c5acc-47cf-495f-a986-e2f21c0a73e8
+89fbc250-8688-4ffb-a0f3-cab8fc39e96e,Kathryn,Gray,M,Single,0,True,1996-07-06,0,MSc,2019-06-07,1,0,10499,Legal,Resolution Specialist,Jean Sawyer,472d4fc8-7f68-4538-8b24-d1e8e8275436
+47569c62-db4f-48e7-b873-0cabb3f96a64,David,Hansen,M,Married,0,True,1996-12-08,0,High School,2014-08-31,6,0,11806,Product,Product Communications Planner,Crystal Montes,e29473b0-c4b1-4d26-918a-2a3edf464515
+72bcf73b-311b-4dbb-a70f-c50c2a8d077d,Roberto,Alexander,F,Single,0,True,1984-10-15,2,PhD,2012-10-16,9,1,13588,Sales,Sales Representative,Laura Jones,540bc2dc-167f-4796-9219-ae5f3a9487f6
+1bb24ee7-caff-472a-816f-92fec3ef0939,James,Hicks,M,Single,0,True,1996-03-30,1,Bachelor,2019-02-19,3,1,11842,Legal,Resolution Specialist,Brian Gray,778c5acc-47cf-495f-a986-e2f21c0a73e8
+e127e49b-e267-4bce-a4dc-68229fe6cde4,Caleb,Bullock,M,Married,0,True,1995-07-02,2,Bachelor,2019-09-13,3,1,12793,Product,Product Integration Assistant,Brian Poole,ff0c1054-14e2-4ae1-9568-48c667e7db10
+edfd17db-a1f9-46ec-9b1b-f48104846966,Stephen,Flowers,M,Married,0,True,2000-03-16,1,High School,2019-01-02,2,1,11316,Product,Product Communications Planner,Laura Jones,540bc2dc-167f-4796-9219-ae5f3a9487f6
+7dd7fd50-7fe6-444a-9f5f-2b7a4aa0dbfa,Randy,Kaiser,M,Married,0,True,1985-01-30,2,Bachelor,2006-12-23,14,0,18863,Finance,Finance Manager,Melissa Rodriguez,282c1b90-c298-4251-a5ee-719323d3aaef
+5d712b59-48be-4fe5-a30b-b1ca63dd96e2,Laura,Wilkinson,F,Single,0,True,1996-04-16,1,Bachelor,2018-02-04,3,1,12666,Product,Product Implementation Manager,Anthony King,0ef123aa-6178-4a4a-b477-bb5ffee5d914
+033fc84a-27ca-402b-b619-7596bf54589c,Bridget,Rosales,F,Married,0,True,1996-07-24,1,MSc,2019-02-12,1,0,12371,Sales,Area Sales Manager,Melissa Rodriguez,282c1b90-c298-4251-a5ee-719323d3aaef
+2f22b60d-69ef-4534-baae-20312743a65f,Joshua,Grimes,M,Single,0,True,1996-01-10,1,Bachelor,2019-06-09,3,1,12037,Technology,IT Director,Christine Schmidt,4adc9ba6-ac48-4b86-8610-d98e9f34360a
+c12d644e-4a5d-4665-baab-aface0131a06,Krystal,Johnston,F,Married,0,True,1990-07-25,1,Bachelor,2018-01-18,8,2,21706,HR,HR Coordinator,Bradley Mason,72a5f5c7-8e5b-493d-af92-df3b616de840
+2b88f572-f357-4350-8726-502ee081cbba,Matthew,Richardson,F,Married,0,True,1981-05-21,1,MSc,2018-12-17,13,4,28096,Technology,Database Administrator,Rebecca Davis,b1dd00bb-a8b3-4855-bb45-8ddaf6a8e403
+62ca5543-db49-413a-9eea-599da989f120,Lisa,Smith,M,Married,0,True,1989-05-25,1,PhD,2016-07-28,4,0,19315,Sales,Sales Representative,Timothy Rogers,8988edb8-bf4c-4c38-9665-c2e24d9a7096
+430c6b40-c9aa-4b8f-9737-bdc3ae1b748d,Jason,Kemp,M,Single,0,True,1993-01-22,1,MSc,2019-03-25,3,1,16312,Strategy,Strategy Analyst,Patrick Campbell,505f886a-8692-491e-a530-3537fa5dcfb4
+01141a82-3073-4287-926b-d02b00b61a47,Lorraine,Forbes,M,Single,0,True,1984-02-24,1,MSc,2009-01-17,13,1,17960,Legal,Manager Legal,John Johnson,3cb3d544-65dc-4b29-ad13-151d69e16034
+d791ee29-0b48-43a3-8783-28cb932735e0,Crystal,Wilkins,F,Single,0,True,1995-12-09,2,Bachelor,2016-02-13,4,0,13591,Strategy,CIO,Amy Hernandez,ecb1b8aa-c989-4c0b-9aeb-9d786912c6e3
+231ee5b7-4faf-4745-b7f4-9cf16a44646c,Andrea,Berry,F,Married,0,True,1993-05-20,1,Bachelor,2018-10-31,5,2,13180,Finance,Portfolio Analyst,Anthony King,0ef123aa-6178-4a4a-b477-bb5ffee5d914
+659e7ca8-2851-44cf-8004-a2e06c7d9d12,Justin,Barber,F,Single,0,True,1992-09-03,1,Bachelor,2018-03-09,6,2,15556,Finance,Credit Risk Manager,Christopher Johnson,4a6ffa02-1a33-46f0-a26b-39316053eee8
+ced14667-d065-4f83-901a-bba754ceafb6,Brianna,Alvarado,F,Married,0,True,1968-09-04,2,PhD,2015-12-06,21,6,25295,Technology,Software Engineering Manager,Katie Contreras,1fce38e3-c9c5-4823-a046-f06346f9269d
+acf58acd-c7e0-4bf3-9d62-5c99399c162d,Danny,Anderson,F,Single,0,True,1993-12-13,1,MSc,2016-03-15,4,0,15136,HR,Benefits Counselor,Beverly Wells,7528bf34-a38e-44a5-b6d6-6e3bdf918c5e
+29841e7b-ab12-4dca-a439-cde1ff9b34d8,Brian,Rivers,M,Married,0,True,1995-07-03,1,Bachelor,2017-10-02,4,1,11150,Strategy,CEO,Adam Ramirez,44f27c77-19ff-447b-a94a-b6e3512b1c52
+f7557cab-d3a1-4e60-a1ea-f07b1ac26a65,Austin,Rice,M,Single,0,True,1992-12-29,1,High School,2017-04-27,9,2,14044,Legal,Legal Research Analyst,James Pineda,215d0b13-2ab5-4601-9b3d-70985d2771e3
+5d7b5cd9-ac0f-45be-bf01-3a982c04dea8,Jason,Roberts,F,Married,0,True,1994-04-19,1,Bachelor,2016-04-25,5,1,15447,Finance,Credit Risk Manager,Laura Jones,540bc2dc-167f-4796-9219-ae5f3a9487f6
+df960a94-ce2e-43c0-8bb1-80ca90297936,Thomas,Johnson,F,Single,0,True,1992-07-31,1,Bachelor,2019-10-19,6,2,21404,Legal,Attorney General,Rachel Ryan,510f3146-cbf8-4e34-8fd6-45702c551289
+520dd5ce-ce81-4b24-b4cf-8b8533a19c01,Andrew,Garcia,M,Married,0,True,1996-08-08,1,Bachelor,2017-03-05,3,0,14049,Strategy,CEO,Philip Valdez,e196c200-0586-472b-a38c-42f37c7e8b31
+261a360a-66fa-49e3-bf81-05f836b693fd,Connie,Beck,F,Single,0,True,1995-03-24,0,Bachelor,2019-10-24,3,1,15103,HR,Retention Specialist,Brian Poole,ff0c1054-14e2-4ae1-9568-48c667e7db10
+b6d3c1f0-0c22-4c1c-9ec4-ce45cec07c04,Stephanie,Collier,M,Married,0,True,1996-05-29,1,Bachelor,2017-07-31,3,0,11582,Product,Product Integration Assistant,Jonathon Weaver,60910f86-4070-4540-991d-93ba12341a02
+1d2250de-5af5-4c0c-b49d-c9be1aea17dc,Samuel,May,F,Married,0,True,1993-12-02,1,Bachelor,2016-09-29,6,1,15491,Product,Production Technician,Brian Poole,ff0c1054-14e2-4ae1-9568-48c667e7db10
+58a92da4-8cf7-4060-a7da-8b528c74098e,Michael,Glover,M,Married,0,True,1984-05-06,2,Bachelor,2009-11-21,14,2,23555,Legal,Attorney General,Alexa Brown,cccefd10-6092-4c93-96bb-b4cf18f924ea
+e89bab32-9d19-4df2-a5a2-7b0a0805008e,Jesse,Rivers,F,Single,0,True,1995-04-05,0,Bachelor,2016-04-10,4,0,15414,Technology,Database Administrator,Scott Anderson,c75a3b41-b90b-4fca-bcdf-ac4511a5259a
+fa56a86b-f7e7-4905-9d1f-192aeb7d9fd0,Ralph,Clark,M,Married,0,True,1993-06-26,2,MSc,2019-05-31,3,1,10338,Finance,Credit Risk Manager,Andre Anderson,17dd7468-c345-43a1-ad47-3b91d4e9f274
+1d3b1872-71fa-4846-8244-4ca78e39a549,Veronica,Baker,M,Married,0,True,1999-05-30,1,High School,2019-01-05,3,1,11661,Technology,IT Director,Shawn Williams,3ee881bc-ba87-4b5f-bf96-d94654d83434
+432b0c08-f250-4fc9-9c78-914d3fc51b3a,Danielle,Juarez,F,Single,0,True,1995-02-26,0,MSc,2018-10-19,2,0,14150,Strategy,CEO,Michael Robertson,545c10b7-eb4d-4a28-a1a6-e4dc0b46adec
+3941337e-e9c5-4647-845c-7092379e50b2,Jeffery,Thompson,M,Married,0,True,1993-06-22,0,Bachelor,2014-02-26,6,0,13351,Technology,Software Engineering Manager,Michelle Rivera,8769f2fd-a5b7-4552-8df9-b96d34affc7a
+b1dd00bb-a8b3-4855-bb45-8ddaf6a8e403,Rebecca,Davis,F,Single,0,True,1993-05-31,1,MSc,2017-10-05,4,1,11625,HR,Talent Consultant,Kelly Conner,fe87c0c3-4d10-49af-bdc6-b7b11867de2c
+58e4b7af-16a2-400b-8397-0ef58778f85b,Laura,Humphrey,M,Single,0,True,1993-02-02,1,Bachelor,2017-02-15,5,1,14765,Sales,Director of Sales,Emily Wilson,0dcf0d34-e5e8-40b1-aa11-a5089dde1f99
+04b8c362-32b0-4026-9e27-c870ec621156,Stephanie,Cain,M,Married,0,True,1995-08-09,1,High School,2013-04-27,7,0,19179,Legal,Legal Research Analyst,Melissa Rodriguez,282c1b90-c298-4251-a5ee-719323d3aaef
+8ef43176-5438-4e2e-a5a4-66ba66d4e079,Johnny,Henderson,M,Single,0,True,1996-07-15,0,Bachelor,2019-03-23,3,1,12468,Technology,Software Engineer,Danny Anderson,acf58acd-c7e0-4bf3-9d62-5c99399c162d
+09085e9d-71ed-4ee0-b281-6e163ea7f9ec,Johnathan,Lee,F,Single,0,True,1987-02-19,1,Bachelor,2017-05-30,10,3,19767,Strategy,CIO,Christopher Johnson,4a6ffa02-1a33-46f0-a26b-39316053eee8
+21efd527-7a1f-49dd-8f56-fd7d8c201571,Nancy,Keller,M,Married,0,True,1999-09-16,1,High School,2019-03-30,3,1,11860,Sales,Director of Sales,Beverly Wells,7528bf34-a38e-44a5-b6d6-6e3bdf918c5e
+5d878642-5a97-4a76-ab34-7b5884f51ab1,Paul,Simmons,M,Married,0,True,1959-11-28,2,Bachelor,2006-06-24,35,7,60200,Strategy,Business Strategy Manager,Ricky Soto,66c3e22b-cdb1-4cd8-abb3-ba162d82f9b6
+e6180c7a-bf74-4470-82e3-670f80d96dc3,John,Greer,F,Married,0,True,1992-09-12,1,MSc,2016-05-06,5,1,12962,Strategy,Business Planner,Norman Pena,b9f2f580-0a55-4241-8079-70d8d0185b2d
+5cd0c921-89ed-4204-8980-50a713e6e680,Nicole,Patel,M,Married,0,True,1995-11-27,1,MSc,2018-06-10,2,0,12749,HR,Benefits Counselor,Anthony King,0ef123aa-6178-4a4a-b477-bb5ffee5d914
+d2480750-2bae-4091-925e-6674ab63ae1f,Karen,Wood,F,Married,0,True,1981-12-14,2,MSc,2008-12-27,15,2,44382,Finance,Credit Risk Analyst,Joseph Durham,8700cfed-571a-41b0-a32e-a7fbb2bec49f
+bdf88814-1395-4615-a11b-bc4dcf81b47e,Sydney,Romero,F,Single,0,True,1996-10-16,2,High School,2015-03-30,6,1,14085,Technology,Database Administrator,Allison Smith,bbeb02a7-61e7-4c1e-a8ff-882971dd7a2e
+5fee3352-3a73-49b4-9fc4-1cb3efca05dd,Monica,Hodge,F,Single,0,True,1994-04-05,1,Bachelor,2018-01-29,4,1,15496,HR,Benefits Counselor,Virginia Fitzgerald,8a882692-c3f8-4617-ba19-5724c98e71df
+a2727e3d-a59d-4a08-85e0-37f4fc4186c2,Elizabeth,Peterson,F,Married,0,True,1993-07-12,1,MSc,2016-08-22,4,0,15655,Legal,Attorney General,Jonathon Weaver,60910f86-4070-4540-991d-93ba12341a02
+151ae673-a73f-4dcf-ac16-bafb0ac8f197,David,Fry,M,Married,0,True,1993-10-09,1,Bachelor,2017-05-05,5,1,13576,Product,Production Technician,Edward Williams,156afdc0-aaf7-4e7c-a22f-36832363de66
+d66d7c61-58d6-4a5c-9884-0115af1feaa3,Christina,Hanna,M,Single,0,True,1992-11-29,2,Bachelor,2017-07-01,6,2,18595,HR,Retention Specialist,Edward Bennett,f4e14e75-4ea2-44f5-a854-3d8871dfd962
+648ec587-d82f-40d1-88f1-e8f8a582d170,Richard,Ward,F,Single,0,True,1993-05-02,1,Bachelor,2016-07-28,6,1,13187,Technology,Software Engineer,Christopher Anderson,4adaf09c-1f6c-4559-8d84-ec43e62aea69
+ee503d1c-e398-4608-bdc5-67cc86bf3c3e,Miguel,Zamora,F,Married,0,True,1996-09-03,2,MSc,2019-09-23,1,0,11973,Strategy,Business Planner,Ricky Soto,66c3e22b-cdb1-4cd8-abb3-ba162d82f9b6
+c8b94661-cd8d-47f9-8cdf-16830ed44bfe,Larry,Dixon,F,Single,0,True,1992-12-26,2,Bachelor,2015-04-27,7,1,13265,Legal,Resolution Specialist,Donald Scott,3cf1de8b-d996-43c4-bb7c-d3a2d09d64e1
+d135515a-ed4e-478c-81a0-c0170cd8017f,Dennis,Clark,F,Single,0,True,1993-02-05,3,MSc,2016-11-22,4,0,12878,Legal,Legal Analyst,Alexa Brown,cccefd10-6092-4c93-96bb-b4cf18f924ea
+16512f73-208a-4a5f-afc9-6ecda2ae3a71,Dawn,Gonzalez,M,Single,0,True,1978-12-09,1,Bachelor,2007-09-05,19,3,49391,Strategy,Business Strategy Manager,Matthew Maynard,6be16292-3ea7-4eb2-baa4-d9c90892c992
+dc6cc809-1b3b-4ab5-91dc-660284485b10,Barry,Williams,M,Single,0,True,1996-07-26,0,High School,2014-08-09,6,0,13520,Finance,Finance Manager,Angela Barnes,4686fd9b-97a0-4271-af96-00667f7a2172
+7419da32-ba1d-411e-af87-76c9d2ac1acb,Luis,Figueroa,M,Married,0,True,1995-01-28,2,Bachelor,2018-03-04,4,1,14987,Legal,Legal Analyst,Joshua Wilson,fe342a0c-c2ae-4f65-bfd8-19c030033c09
+6ce118aa-efa0-417d-bb7f-b1ab27a03cfa,Ashley,Shea,M,Married,0,True,1968-06-09,1,MSc,2016-05-24,24,7,24053,HR,HR Coordinator,Susan Wilson,a814e7ff-b207-453b-8167-7ccdeb6c1acc
+dc2f4bba-3726-4cbc-a51f-d3bffa626941,Henry,Murphy,M,Single,0,True,1993-10-07,1,Bachelor,2017-04-01,5,1,13755,HR,Recruiting Manager,Mark Murphy,599a6e41-3f0e-40df-bd15-a236faa571ab
+827fb925-eb4a-4163-9021-598403035a9f,Johnny,Torres,M,Married,0,True,1995-06-19,0,MSc,2018-03-23,2,0,11782,Sales,Sales Manager,Margaret Arroyo,85b9cd79-72ac-4a9a-b04d-48e506d4e1ce
+a7260152-b2a2-4d34-966f-80246f74350e,Tony,Tapia,F,Single,0,True,1995-03-29,1,High School,2016-08-15,6,1,14647,Legal,Attorney General,Norma Adams,cf6d24e0-45b1-40d2-8038-0474d973eafd
+6c70088c-2663-408a-a472-5944aeed9393,Marissa,Maddox,M,Married,0,True,1994-10-18,2,MSc,2017-03-11,3,0,12389,Strategy,CEO,Michael Robertson,545c10b7-eb4d-4a28-a1a6-e4dc0b46adec
+683918cd-8981-458b-9ebe-5459ba00f6a3,Marissa,Best,M,Single,0,True,1995-07-17,0,Bachelor,2017-03-26,4,1,15216,Sales,Area Sales Manager,Theresa Cole,e57e02d0-147f-4e18-adc6-7c94c8065964
+ed3c101e-0c80-4f70-996d-ee9f27baf32a,Ashley,Booker,M,Married,0,True,1993-08-04,0,Bachelor,2017-12-26,5,1,16339,Legal,Legal Research Analyst,Norman Pena,b9f2f580-0a55-4241-8079-70d8d0185b2d
+0f6dd615-b25c-4c0e-b3b2-a22c7ea8c275,Alan,Young,M,Married,0,True,1986-09-04,2,MSc,2012-07-22,10,1,21914,Finance,Credit Risk Manager,Jonathon Weaver,60910f86-4070-4540-991d-93ba12341a02
+1910dd2b-a0ec-40a5-b906-39eccc04d179,Stephen,Arnold,M,Single,0,True,1994-11-14,0,High School,2015-12-04,7,1,17134,Finance,Portfolio Analyst,Nicole Collins,193988fd-b97b-4177-bb55-68426f35f0bb
+23e2d0ec-c83b-43f7-9512-ea78de0af63d,Tina,Wilson,F,Married,0,True,1980-08-12,2,Bachelor,2009-07-22,17,3,21349,Legal,Attorney General,Philip Valdez,e196c200-0586-472b-a38c-42f37c7e8b31
+c2fd2149-49b7-4acd-91e4-f82f2e898857,Colton,Hughes,M,Single,0,True,1995-08-12,1,MSc,2019-01-05,2,1,13632,Product,Product Brand Associate,Laura Jones,540bc2dc-167f-4796-9219-ae5f3a9487f6
+7b8c8fb6-719b-4447-bcec-c0a3ea5b2e2d,Scott,White,M,Single,0,True,1992-01-11,1,MSc,2015-09-14,5,0,12634,Technology,IT Director,Catherine Green,164ae069-858c-4f1e-a99b-cc044ec2a0b9
+479bdde4-4cc7-42bb-b2b6-039c77380c66,Shane,Farrell,M,Married,0,True,1996-03-20,0,High School,2018-01-09,5,2,12323,Legal,Defense Attorney,Julia Suarez,d0d8ece0-c157-4a68-830d-b0e1a515f04f

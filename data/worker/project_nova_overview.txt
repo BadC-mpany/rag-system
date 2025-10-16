@@ -1,0 +1,2 @@
+Project Nova - Phase 1 Overview
+Project Nova aims to develop a next-generation predictive analytics engine for our Data-Harvester Pro product. Phase 1 focuses on data ingestion and preliminary model training. Key milestones include: completion of Kafka data pipeline integration by 2025-11-01, development of initial Spark processing jobs by 2025-11-15, and a successful proof-of-concept for the predictive model by 2025-12-01. Team leads for this phase are Charlie (Backend) and Eve (Frontend). Daily stand-ups are held at 9:30 AM EST.

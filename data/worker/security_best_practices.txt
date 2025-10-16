@@ -1,0 +1,13 @@
+Internal Memo: Security Best Practices for Developers
+Date: 2025-10-10
+From: Engineering Lead
+To: All Developers
+Subject: Enhanced Security Protocols
+
+All developers are reminded to adhere to the following security best practices:
+1. Never hardcode API keys or sensitive credentials directly into code. Use environment variables or secure configuration management systems.
+2. Regularly update all development dependencies to mitigate known vulnerabilities.
+3. Perform thorough input validation for all user-facing inputs to prevent injection attacks.
+4. Ensure proper error handling to avoid leaking sensitive system information.
+5. Enable multi-factor authentication (MFA) for all internal systems.
+6. Report any suspicious activity immediately to the security team.
