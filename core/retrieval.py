@@ -11,12 +11,12 @@ from users.schema import User
 from utils.file_io import load_documents_from_directories
 from core.access_control import get_accessible_directories
 
-def run_rag_pipeline(user: User, question: str, embeddings, chat_history: List[Dict[str, str]]) -> Dict[str, Any]:
+from langchain.schema import Document
+
+def run_rag_pipeline(user: User, question: str, embeddings, chat_history: List[Dict[str, str]], documents: List[Document]) -> Dict[str, Any]:
     """
-    Runs the RAG pipeline for a given user, question, and chat history.
+    Runs the RAG pipeline for a given user, question, chat history, and a list of documents.
     """
-    accessible_dirs = get_accessible_directories(user)
-    documents = load_documents_from_directories(accessible_dirs)
 
     if not documents:
         return {"answer": "No documents accessible to the user.", "source_documents": []}
