@@ -1,4 +1,4 @@
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Optional
 
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
@@ -10,23 +10,59 @@ from core.vectorstore import create_or_load_vectorstore
 from users.schema import User
 from utils.file_io import load_documents_from_directories
 from core.access_control import get_accessible_directories
+from config.settings import DATA_DIR
 
 from langchain.schema import Document
 
-def run_rag_pipeline(user: User, question: str, embeddings, chat_history: List[Dict[str, str]], documents: List[Document]) -> Dict[str, Any]:
+def run_rag_pipeline(user: User, question: str, embeddings, chat_history: List[Dict[str, str]], documents: Optional[List[Document]] = None) -> Dict[str, Any]:
     """
     Runs the RAG pipeline for a given user, question, chat history, and a list of documents.
     """
+    # If no document list provided, load documents from accessible directories (legacy behaviour)
+    if documents is None:
+        accessible_dirs = get_accessible_directories(user)
+        print(f"Accessible directories for user {user.username} (role={user.role}): {accessible_dirs}")
+        documents = load_documents_from_directories(accessible_dirs)
+
+    # Debug: print DATA_DIR for clarity
+    print(f"DATA_DIR is: {DATA_DIR}")
+
+    # After loading, print counts and sample sources for debugging
+    if documents:
+        try:
+            sample_sources = [d.metadata.get('source') for d in documents[:5]]
+        except Exception:
+            sample_sources = []
+        print(f"Loaded {len(documents)} documents. Sample sources: {sample_sources}")
 
     if not documents:
-        return {"answer": "No documents accessible to the user.", "source_documents": []}
+        # Try a fallback: attempt to load everything under the repo data directory.
+        print("No documents found for user-role directories; attempting fallback load from DATA_DIR")
+        try:
+            fallback_docs = load_documents_from_directories([DATA_DIR])
+            if fallback_docs:
+                print(f"Fallback loaded {len(fallback_docs)} documents from DATA_DIR")
+                documents = fallback_docs
+            else:
+                print("Fallback load found no documents either.")
+        except Exception as exc:
+            print(f"Fallback load error: {exc}")
 
-    vector_store = create_or_load_vectorstore(documents, embeddings, user.role)
-    retriever = vector_store.as_retriever()
+    if not documents:
+        # Return a simple iterator with an error answer to keep server logic uniform
+        return iter([{"answer": "No documents accessible to the user.", "context": []}])
+
+    try:
+        vector_store = create_or_load_vectorstore(documents, embeddings, user.role)
+        if not vector_store:
+            raise RuntimeError("Vector store could not be created or loaded.")
+        retriever = vector_store.as_retriever()
+    except Exception as exc:
+        return iter([{"answer": f"Error preparing vector store: {str(exc)}", "context": []}])
 
     llm = get_llm()
     if not llm:
-        return {"answer": "LLM could not be initialized.", "source_documents": []}
+        return iter([{"answer": "LLM could not be initialized.", "context": []}])
 
     # Contextualize question prompt
     contextualize_q_system_prompt = (

@@ -105,28 +105,29 @@ def load_documents_from_directories(dir_paths: List[str]) -> List[Document]:
         if not os.path.exists(dir_path):
             print(f"Directory not found: {dir_path}")
             continue
-            
-        for filename in os.listdir(dir_path):
-            filepath = os.path.join(dir_path, filename)
-            
-            # Skip directories
-            if os.path.isdir(filepath):
-                continue
-                
-            ext = "." + filename.rsplit(".", 1)[-1].lower() if '.' in filename else None
-            
-            if ext in LOADER_MAPPING:
-                try:
-                    loader_class = LOADER_MAPPING[ext]
-                    loader = loader_class(filepath)
-                    docs = loader.load()
-                    documents.extend(docs)
-                    loaded_files.append(f"{filename} ({ext})")
-                except Exception as e:
-                    print(f"Error loading file {filepath}: {e}")
-                    skipped_files.append(f"{filename} ({ext}) - {str(e)}")
-            else:
-                skipped_files.append(f"{filename} - unsupported format")
+
+        # Walk the directory tree so nested files (e.g., data/public/*) are included
+        for root, _, files in os.walk(dir_path):
+            for filename in files:
+                filepath = os.path.join(root, filename)
+
+                ext = "." + filename.rsplit(".", 1)[-1].lower() if '.' in filename else None
+
+                if ext in LOADER_MAPPING:
+                    try:
+                        loader_class = LOADER_MAPPING[ext]
+                        loader = loader_class(filepath)
+                        docs = loader.load()
+                        documents.extend(docs)
+                        relpath = os.path.relpath(filepath, dir_path)
+                        loaded_files.append(f"{relpath} ({ext})")
+                    except Exception as e:
+                        print(f"Error loading file {filepath}: {e}")
+                        relpath = os.path.relpath(filepath, dir_path)
+                        skipped_files.append(f"{relpath} ({ext}) - {str(e)}")
+                else:
+                    relpath = os.path.relpath(filepath, dir_path)
+                    skipped_files.append(f"{relpath} - unsupported format")
 
     # Print summary
     if loaded_files:

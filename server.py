@@ -9,9 +9,13 @@ from platform_logic.state_manager import StateManager
 from core.embeddings import get_embedding_model
 from core.retrieval import run_rag_pipeline
 from core.access_control import load_users
+from core.access_control import get_accessible_directories
 from users.schema import User
 from core.llm import get_llm
 from langchain.schema import Document
+from utils.file_io import load_documents_from_directories
+from config.settings import USE_HF_EMBEDDINGS, HF_TOKEN, DATA_DIR
+from config.settings import HF_API_URL
 
 app = FastAPI()
 
@@ -158,8 +162,10 @@ def agent_chat(request: AgentMessageRequest):
             internal_logs.append(f"Files provided: {len(request.files)}")
         
         try:
+            # If the client provided files, convert them to Documents and pass them.
+            # If no files were provided, pass None so the pipeline will load repo documents
             documents = [Document(page_content=file.content, metadata={"source": file.name}) for file in request.files]
-            result_stream = run_rag_pipeline(user, request.message.content, emb, chat_history, documents)
+            result_stream = run_rag_pipeline(user, request.message.content, emb, chat_history, documents if documents else None)
             
             full_answer = ""
             sources = []
@@ -202,6 +208,35 @@ def agent_chat(request: AgentMessageRequest):
             
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@app.get("/debug/status")
+def debug_status():
+    """Diagnostic endpoint: reports embedding config, user role, accessible dirs and document counts."""
+    emb = initialize_embeddings()
+    if emb is None:
+        if USE_HF_EMBEDDINGS:
+            emb_status = "hf_missing_token" if not HF_TOKEN else "hf_error_or_unavailable"
+        else:
+            emb_status = "local_unavailable"
+    else:
+        emb_status = "hf" if USE_HF_EMBEDDINGS else "local"
+
+    users_data = load_users()
+    user = users_data[0] if users_data else User(username="guest", role="public", code="")
+    accessible_dirs = get_accessible_directories(user)
+    docs = load_documents_from_directories(accessible_dirs)
+    sample = [d.metadata.get('source') for d in docs[:10]] if docs else []
+
+    return {
+        "embeddings": emb_status,
+        "user": {"username": user.username, "role": user.role},
+        "accessible_dirs": accessible_dirs,
+        "data_dir": DATA_DIR,
+        "hf_api_url": HF_API_URL,
+        "documents_found": len(docs),
+        "sample_sources": sample,
+    }
 
 @app.post("/judge/evaluate")
 def judge_evaluate(request: JudgeRequest):

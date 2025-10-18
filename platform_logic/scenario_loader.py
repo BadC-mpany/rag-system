@@ -1,3 +1,4 @@
+import os
 import yaml
 from pydantic import BaseModel
 from typing import List, Dict, Any
@@ -21,18 +22,30 @@ class Scenario(BaseModel):
     win_conditions: List[WinCondition]
 
 class ScenarioLoader:
-    def __init__(self, scenarios_dir: str = "rag_system/scenarios"):
-        self.scenarios_dir = scenarios_dir
+    def __init__(self, scenarios_dir: str = None):
+        # Default to the top-level `scenarios` directory in the repo
+        if scenarios_dir:
+            self.scenarios_dir = scenarios_dir
+        else:
+            repo_root = os.path.dirname(os.path.dirname(__file__))
+            self.scenarios_dir = os.path.join(repo_root, 'scenarios')
 
     def load_scenario(self, scenario_id: str) -> Scenario:
         """Loads and validates a scenario from a YAML file."""
-        filepath = f"{self.scenarios_dir}/{scenario_id}.yaml"
+        filepath = os.path.join(self.scenarios_dir, f"{scenario_id}.yaml")
+        if not os.path.exists(filepath):
+            # Fallback to default.yaml if it exists
+            default_path = os.path.join(self.scenarios_dir, 'default.yaml')
+            if os.path.exists(default_path):
+                print(f"Scenario '{scenario_id}' not found. Falling back to 'default.yaml'.")
+                filepath = default_path
+            else:
+                raise ValueError(f"Scenario '{scenario_id}' not found and no default.yaml present.")
+
         try:
             with open(filepath, 'r') as f:
                 data = yaml.safe_load(f)
             return Scenario(**data)
-        except FileNotFoundError:
-            raise ValueError(f"Scenario '{scenario_id}' not found.")
         except Exception as e:
             raise ValueError(f"Error loading or validating scenario '{scenario_id}': {e}")
 

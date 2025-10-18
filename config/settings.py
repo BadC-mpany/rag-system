@@ -53,3 +53,18 @@ VECTOR_STORE_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'vec
 
 # --- Logging ---
 LOGS_DIR = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'logs')
+
+# --- Embedding backend settings ---
+# Use the Hugging Face Inference API instead of local sentence-transformers when
+# USE_HF_EMBEDDINGS is true (set in .env). HF token should be placed in .env
+# as HF_TOKEN. HF_LOGGING enables debug logs for HF embedding calls.
+load_dotenv()
+
+# If set to true (1/true/yes) the repo will call HF Inference API for embeddings.
+USE_HF_EMBEDDINGS = os.getenv("USE_HF_EMBEDDINGS", "false").lower() in ("1", "true", "yes")
+# HF API token will be read from .env (HF_TOKEN)
+HF_TOKEN = os.getenv("HF_TOKEN")
+# HF pipeline URL (default to all-MiniLM-L6-v2 feature-extraction pipeline)
+HF_API_URL = os.getenv("HF_API_URL", "https://api-inference.huggingface.co/models/sentence-transformers/all-MiniLM-L6-v2")
+# Enable/disable verbose logging for HF embedding calls
+HF_LOGGING = os.getenv("HF_LOGGING", "true").lower() in ("1", "true", "yes")
