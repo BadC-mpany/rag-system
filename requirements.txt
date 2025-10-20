@@ -20,8 +20,8 @@ beautifulsoup4
 
 # Additional document processing libraries
 pypdf
-unstructured
-python-magic-bin
+# unstructured  # Commented out due to Python 3.13 compatibility issues
+# python-magic-bin  # Not available for Python 3.13
 pillow
 openpyxl
 python-pptx
