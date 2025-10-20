@@ -153,17 +153,17 @@ def get_embedding_model():
             print("Embeddings: configured to use Hugging Face Inference API")
         if not HF_TOKEN:
             print("HF embeddings enabled but HF_TOKEN is not set.")
-            return None
-        return HFEmbeddings()
+            # Fall through to offline fallback
+        else:
+            try:
+                return HFEmbeddings()
+            except Exception as e:
+                print(f"HF embeddings failed: {e}, falling back to offline embeddings")
 
-    # Fallback to local sentence-transformers
-    model_name = "all-MiniLM-L6-v2"
-    if SentenceTransformerEmbeddings is None:
-        print("Local SentenceTransformerEmbeddings not available (missing package).")
-        return None
-    try:
-        embeddings = SentenceTransformerEmbeddings(model_name=model_name)
-        return embeddings
-    except Exception as e:
-        print(f"Error initializing local embedding model: {e}")
-        return None
+    # Skip sentence-transformers for now (requires network) and go directly to offline embeddings
+    print("Skipping sentence-transformers (requires network), using offline embeddings")
+    
+    # Use simple offline embeddings
+    from .simple_embeddings import SimpleOfflineEmbeddings
+    print("Embeddings: using simple offline embeddings (no network required)")
+    return SimpleOfflineEmbeddings()

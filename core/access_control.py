@@ -50,16 +50,16 @@ def authorize_access(user: User, filepath: str) -> bool:
         
     return False
 
-def get_accessible_directories(user: User) -> List[str]:
+def get_accessible_directories(user_role: str) -> List[str]:
     """
     Returns a list of directories accessible to the user based on their role.
     """
-    if user.role == 'admin':
+    if user_role == 'admin':
         return [PUBLIC_DATA_DIR, WORKER_DATA_DIR, ADMIN_DATA_DIR]
-    if user.role == 'manager':
+    if user_role == 'manager':
         return [PUBLIC_DATA_DIR, WORKER_DATA_DIR, ADMIN_DATA_DIR]
-    if user.role == 'worker':
+    if user_role == 'worker':
         return [PUBLIC_DATA_DIR, WORKER_DATA_DIR]
-    if user.role == 'public':
+    if user_role == 'public':
         return [PUBLIC_DATA_DIR]
     return []

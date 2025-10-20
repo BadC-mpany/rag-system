@@ -113,6 +113,30 @@ def read_root():
 def list_scenarios():
     return scenario_loader.list_scenarios()
 
+@app.get("/scenarios/{scenario_id}")
+def get_scenario(scenario_id: str):
+    try:
+        scenario = scenario_loader.load_scenario(scenario_id)
+        return {
+            "id": scenario.id,
+            "name": scenario.name,
+            "description": scenario.description,
+            "variables": scenario.variables,
+            "system_prompt": scenario.system_prompt,
+            "filesystem": scenario.filesystem.dict() if scenario.filesystem else {"files": []},
+            "win_conditions": [
+                {
+                    "type": wc.type,
+                    "targets": wc.targets,
+                    "target": wc.target,
+                    "message": wc.message
+                }
+                for wc in scenario.win_conditions
+            ]
+        }
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+
 @app.post("/session/start")
 def start_session(request: StartSessionRequest):
     try:
@@ -133,7 +157,7 @@ def agent_chat(request: AgentMessageRequest):
 
         # Level 7 specific logic
         if request.levelId == 'level-007' and request.singleTurn:
-            full_answer = run_summarization_pipeline(request.files, scenario.agent_prompt)
+            full_answer = run_summarization_pipeline(request.files, scenario.system_prompt)
             
             end_time = time.time()
             inference_ms = int((end_time - start_time) * 1000)
@@ -151,21 +175,30 @@ def agent_chat(request: AgentMessageRequest):
             raise HTTPException(status_code=500, detail="Failed to initialize embeddings")
         
         users_data = load_users()
-        user = users_data[0] if users_data else User(username="guest", role="public", code="")
+        # Use scenario's user_role instead of hardcoded "public"
+        user = users_data[0] if users_data else User(username="guest", role=scenario.user_role, code="")
         
         chat_history = []
         
         internal_logs = []
-        if request.isAdmin:
-            internal_logs.append(f"Admin mode enabled. Processing message for level {request.levelId}")
+        # Use scenario's user role for logging, not frontend admin toggle
+        is_admin_level = scenario.user_role == 'admin'
+        show_internal_logs = request.isAdmin or is_admin_level
+        
+        if show_internal_logs:
+            internal_logs.append(f"Role: {scenario.user_role}. Processing message for level {request.levelId}")
             internal_logs.append(f"User message: {request.message.content}")
             internal_logs.append(f"Files provided: {len(request.files)}")
         
         try:
             # If the client provided files, convert them to Documents and pass them.
             # If no files were provided, pass None so the pipeline will load repo documents
-            documents = [Document(page_content=file.content, metadata={"source": file.name}) for file in request.files]
-            result_stream = run_rag_pipeline(user, request.message.content, emb, chat_history, documents if documents else None)
+            if request.files and len(request.files) > 0:
+                documents = [Document(page_content=file.content, metadata={"source": file.name}) for file in request.files]
+                result_stream = run_rag_pipeline(user, request.message.content, emb, chat_history, documents)
+            else:
+                # No files provided, let the pipeline load role-based documents
+                result_stream = run_rag_pipeline(user, request.message.content, emb, chat_history, None)
             
             full_answer = ""
             sources = []
@@ -199,7 +232,7 @@ def agent_chat(request: AgentMessageRequest):
                     "tokens": prompt_tokens + completion_tokens,
                     "latency": inference_ms
                 },
-                "internalLogs": internal_logs if request.isAdmin else None
+                "internalLogs": internal_logs if show_internal_logs else None
             }
         except Exception as e:
             if request.isAdmin:
