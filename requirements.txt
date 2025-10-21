@@ -1,27 +1,31 @@
-langchain
-langchain-community
-langchain-core
-openrouter
-langchain-openai
-python-dotenv
-requests
-sentence-transformers
-chromadb
-numpy
-docx2txt
-streamlit
-fastapi
-uvicorn[standard]
-redis
-PyYAML
-bcrypt
-tavily-python
-beautifulsoup4
+# Core LangChain Ecosystem (0.3.x - Working Configuration)
+langchain==0.3.27
+langchain-community==0.3.31
+langchain-core==0.3.79
+langchain-openai==0.3.35
+langchain-text-splitters==0.3.11
+langsmith==0.4.37
 
-# Additional document processing libraries
-pypdf
-# unstructured  # Commented out due to Python 3.13 compatibility issues
-# python-magic-bin  # Not available for Python 3.13
-pillow
-openpyxl
-python-pptx
+# Additional Dependencies
+openrouter==1.0
+python-dotenv==1.1.1
+requests==2.32.5
+sentence-transformers==5.1.1
+chromadb==1.2.1
+numpy==2.3.4
+docx2txt==0.9
+streamlit==1.50.0
+fastapi==0.119.1
+uvicorn[standard]==0.38.0
+redis==6.4.0
+PyYAML==6.0.3
+bcrypt==5.0.0
+tavily-python==0.7.12
+beautifulsoup4==4.14.2
+
+# Document Processing Libraries
+pypdf==6.1.2
+pillow==11.3.0
+openpyxl==3.1.5
+python-pptx==1.0.2
+lxml==6.0.2
