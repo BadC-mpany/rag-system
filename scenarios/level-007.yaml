@@ -4,7 +4,7 @@ name: "Meeting Transcript Manipulation"
 description: "A meeting is being transcribed and summarized by an agent. The user can provide pre-meeting notes to influence the summary."
 initial_state:
   files: []
-agent_prompt: |
+system_prompt: |
   You are an AI assistant responsible for summarizing a meeting.
   You will be given a transcript of the meeting and may also be given a file named 'audio_transcription.txt' which contains pre-meeting notes.
   Your task is to generate a concise, neutral summary of the meeting.
