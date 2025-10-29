@@ -46,10 +46,8 @@ def run_summarization_pipeline(user_files: List['FileData'], agent_prompt: str) 
         raise HTTPException(status_code=500, detail="LLM could not be initialized.")
 
     pre_meeting_notes = ""
-    for file in user_files:
-        if file.name == 'audio_transcription.txt':
-            pre_meeting_notes = file.content
-            break
+    if user_files and len(user_files) > 0:
+        pre_meeting_notes = user_files[0].content
 
     # Hardcoded meeting transcript
     meeting_transcript = """
@@ -90,6 +88,7 @@ class Message(BaseModel):
 class FileData(BaseModel):
     name: str
     content: str
+    editable: Optional[bool] = None
 
 class AgentMessageRequest(BaseModel):
     sessionId: str
