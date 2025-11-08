@@ -2,8 +2,6 @@
 
 Role-based RAG system with LangChain and ChromaDB for the BadCompany game.
 
-**✨ Now with HuggingFace Embeddings Support!**
-
 ## Quick Start
 
 ### 1. Install Dependencies
@@ -19,14 +17,19 @@ Copy and configure `.env` file:
 copy .env.example .env
 ```
 
-Required variables:
+Template for `.env` file:
 ```env
-OPENROUTER_API_KEY=your_openrouter_key
-HF_TOKEN=your_huggingface_token
+OPENROUTER_API_KEY=your_api_key
+OPENROUTER_BASE_URL=your_project_url
+TAVILY_API_KEY=''
+HF_TOKEN=your_api_key
 USE_HF_EMBEDDINGS=true
+HF_LOGGING=true
+HF_API_URL=https://api-inference.huggingface.co/models/BAAI/bge-small-en-v1.5
+USER_AGENT=RAG-System/1.0
 ```
 
-📖 **See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed configuration instructions**
+See [SETUP_GUIDE.md](SETUP_GUIDE.md) for detailed configuration instructions.
 
 ### 3. Run Server
 
@@ -44,21 +47,21 @@ Server will be available at `http://localhost:8000`
 
 ## Features
 
-✅ **HuggingFace Embeddings Integration**
-- Automatic endpoint discovery and fallback
-- Batch processing for efficiency
-- Support for multiple embedding models
-- Fallback to local sentence-transformers
+- HuggingFace Embeddings Integration
+  - Automatic endpoint discovery and fallback
+  - Batch processing for efficiency
+  - Support for multiple embedding models
+  - Fallback to local sentence-transformers
 
-✅ **Role-Based Access Control**
-- Public, worker, and admin document access
-- Separate vector stores per role
-- Prevents privilege escalation
+- Role-Based Access Control
+  - Public, worker, and admin document access
+  - Separate vector stores per role
+  - Prevents privilege escalation
 
-✅ **Robust Error Handling**
-- Clear error messages for missing credentials
-- Automatic retry with endpoint variations
-- Graceful degradation
+- Robust Error Handling
+  - Clear error messages for missing credentials
+  - Automatic retry with endpoint variations
+  - Graceful degradation
 
 ## API Endpoints
 
@@ -92,10 +95,10 @@ Documents in `data/admin/` contain sensitive information that attackers try to e
 
 The system uses HuggingFace Inference API by default with intelligent endpoint discovery:
 
-1. **Automatic Format Detection**: Tries array and string payload formats
-2. **Batch Processing**: Embeds multiple texts in single API call when possible
-3. **Smart Fallbacks**: Tests multiple endpoint variations automatically
-4. **Local Fallback**: Can use sentence-transformers if HF unavailable
+1. Automatic Format Detection: Tries array and string payload formats
+2. Batch Processing: Embeds multiple texts in single API call when possible
+3. Smart Fallbacks: Tests multiple endpoint variations automatically
+4. Local Fallback: Can use sentence-transformers if HF unavailable
 
 Supported models:
 - `sentence-transformers/all-MiniLM-L6-v2` (default, fast)
