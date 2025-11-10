@@ -1,0 +1,14 @@
+api.badcompany.xyz {
+    reverse_proxy api:8000 {
+        health_uri /debug/status
+        health_interval 30s
+        health_timeout 5s
+    }
+
+    # Logging
+    log {
+        output stdout
+        format console
+    }
+}
+
